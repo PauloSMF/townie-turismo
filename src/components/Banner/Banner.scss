@@ -1,0 +1,9 @@
+.banner {
+    height: 80vh;
+
+    .banner-transition {
+        width: inherit;
+        height: inherit;
+        background: linear-gradient(to top, var(--white) 0%, transparent 100%);
+    }
+}

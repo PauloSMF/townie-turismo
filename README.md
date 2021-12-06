@@ -1,3 +1,8 @@
+# Townie Turismo
+Adaptações e finalização do site Townie Turismo.
+Original: https://townieturismo.herokuapp.com/index.html
+Autoria própria.
+Projeto para fins pessoais.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

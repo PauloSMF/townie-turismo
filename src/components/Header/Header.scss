@@ -1,0 +1,52 @@
+header {
+    background-color: var(--lightGray);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    text-align: center;
+    padding: 0 2rem;
+    
+
+    .header-content {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
+
+        img {
+            margin-right: 1rem;
+        }
+
+        .menu, .socialMedia {
+            display: flex;
+            align-items: center;
+            font-size: 0.9rem;
+
+            img {
+                cursor: pointer;
+            }
+
+            .menu-item, .socialMedia-item {
+                display: flex;
+                align-items: center;
+                margin-right: 0.5rem;
+                cursor: pointer;
+                transition: all ease 0.2s;
+
+                .icon {
+                    margin-right: 0.2rem;
+                }
+            }
+
+            .menu-item:hover, .socialMedia-item:hover {
+                color: var(--yellow)
+            }
+        }
+    }
+}
